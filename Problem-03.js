@@ -12,7 +12,7 @@ function bestTeam(player1, player2) {
   if (fareTeam1 < fareTeam2) {
     return player1.name;
   } else if (fareTeam1 == fareTeam2) {
-    return "tie";
+    return "Tie" ;
   }
   return player2.name;
 }
